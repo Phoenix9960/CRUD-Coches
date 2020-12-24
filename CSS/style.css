@@ -1,0 +1,64 @@
+#container-cars {
+    display: flex;
+    flex-wrap: wrap;
+}
+#form-cars {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-group {
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 15px;
+}
+.btn-box {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+}
+.car-card {
+    box-sizing: border-box;
+    width: 25%;
+    min-height: 300px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.container-car {
+    flex-wrap: nowrap;
+    margin: 15px;
+    border: solid 2px #808080;
+    border-radius: 3%;
+}
+.title {
+    font-size: 2rem;
+}
+.picture {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.picture > img {
+    margin: 13px 0;
+    width: 100%;
+}
+.other-Dates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 50px;
+}
+.dates {
+    min-width: 50%;
+}
+.text-bold {
+    font-weight: bold;
+}
+.buttoms-box {
+    padding: 15px;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+}
